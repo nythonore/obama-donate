@@ -12,3 +12,297 @@
 
     Link
         Color: #2199e8;
+
+/** custom page **/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: lato, sans-serif;
+    width: 100%;
+	overflow-x: hidden;
+}
+
+.btn, .btn:hover, .btn:active, .btn:focus {
+	outline: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+.form-control, .form-control:hover, .form-control:focus, .form-control:active {
+	outline: none;
+	box-shadow: none;
+	border-radius: 0;
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: none;
+	border: none;
+	outline: none;
+	color: inherit;
+	transition: all 0.6s ease !important;
+}
+
+a:hover, a:active, a:focus {
+	transition: all 0.6s ease !important;
+	text-decoration: none;
+}
+
+/** end custom page **/
+
+/** section-1 **/
+
+.section-1 {
+    min-height: 60vh;
+    background: url('../img/obama-wallpaper.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-1 h2 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 60px;
+}
+
+.section-1 .buttons {
+    padding-bottom: 20px;
+}
+
+.section-1 .btn {
+    background: #2a2970;
+    border: 2px solid #2a2970;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 5px;
+    padding: .9375rem 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+/** end section-1 **/
+
+.section-2 h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.section-2 p {
+    color: #3c3c3c;
+    font-size: 23px;
+    font-weight: 200;
+    line-height: 1.4;   
+}
+
+/** section-2 **/
+/** end section-2 **/
+
+/** section-3 **/
+
+.section-3 .plan-box {
+    background: #f0f0f0;
+    color: #000000;
+    cursor: pointer;
+}
+
+.section-3 span {
+    color: #3c3c3c;
+    font-weight: 200;
+    display: block;   
+}
+
+.section-3 img.amount {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-3 img.image {
+    height: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/** end section-3 **/
+
+/** section-4 **/
+
+.section-4 p {
+    color: #3c3c3c;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.7;
+}
+
+/** end section-4 **/
+
+/** section-5 **/
+
+.section-5 h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.section-5 .plans-btn .btn {
+    height: 55px;
+    background: #6bb8ab;
+    border: 2px solid #6bb8ab;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.section-5 label {
+    position: relative;
+    top: 10px;
+    color: #000000;
+    font-weight: 200;
+}
+
+.section-5 .form-control {
+    border: .0625rem solid #afafaf;
+    border-radius: 0;
+}
+
+.section-5 .submit-btn {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #2a2970;
+    border: 2px solid #2a2970;
+}
+
+/** end section-5 **/
+
+/** section-6 **/
+
+.section-6 ul {
+    list-style: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-6 ul li {
+    perspective: 25rem;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    display: block;
+    background: #000;
+}
+
+.section-6 li {
+    width: 16.666%;
+    height: 215px;
+}
+
+.section-6 li.footer-1 {
+    background: url('../img/footer-1.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-6 li.footer-2 {
+    background: url('../img/footer-2.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-6 li.footer-3 {
+    background: url('../img/footer-3.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-6 li.footer-4 {
+    background: url('../img/footer-4.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-6 li.footer-5 {
+    background: url('../img/footer-5.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-6 li.footer-6 {
+    background: url('../img/footer-6.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/** end section-6 **/
+
+/** section-7 **/
+
+.section-7 {
+    min-height: 25vh;
+    background: url('../img/obama-payment.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/** end section-7 **/
+
+/** end section-8 **/
+
+.section-8 h4 {
+    color: #000000;
+    font-size: 18px;
+}
+
+.section-8 p {
+    color: #3c3c3c;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.7;
+}
+
+.section-8 a {
+    color: blue;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.section-8 .form-control {
+    height: 50px;
+    transition: all 0.6s ease;
+}
+
+.section-8 .form-control:active,
+.section-8 .form-control:focus {
+    border: 1px solid blue;
+    transition: all 0.6s ease;
+}
+
+.section-8 .payment-option .box-option h2 {
+    font-size: 14px;
+    font-weight: 700;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    background: #ffffff;
+    position: relative;
+    top: -27px;
+}
+
+.section-8 .payment-option .box-option img {
+    width: 100%;
+    height: auto;
+}
+
+/** end section-8 **/
