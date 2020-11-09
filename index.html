@@ -15,6 +15,25 @@
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><b>OBAMA</b> DONATE</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-danger my-2 my-sm-0 btn-block" type="button">DONATE NOW</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <section class="section-1">
         <div class="container">
             <div class="row justify-content-center">
@@ -121,30 +140,30 @@
                         <h2 class="text-center">Make a one-time gift today</h2>
                     </div>
 
-                    <form action="payment.html" method="GET">
+                    <form action="#" method="GET" id="SelectAmountSubmitForm">
                         <div class="row plans-btn">
                             <div class="col-sm-4 mb-3">
-                                <button type="button" class="btn btn-primary text-center btn-block" onclick="window.location.href='payment.html'">$10</button>
+                                <button type="button" class="btn btn-primary text-center btn-block SelectAmountForm">$10</button>
                             </div>
 
                             <div class="col-sm-4 mb-3">
-                                <button type="button" class="btn btn-primary text-center btn-block" onclick="window.location.href='payment.html'">$25</button>
+                                <button type="button" class="btn btn-primary text-center btn-block SelectAmountForm">$25</button>
                             </div>
 
                             <div class="col-sm-4 mb-3">
-                                <button type="button" class="btn btn-primary text-center btn-block" onclick="window.location.href='payment.html'">$50</button>
+                                <button type="button" class="btn btn-primary text-center btn-block SelectAmountForm">$50</button>
                             </div>
 
                             <div class="col-sm-4 mb-3">
-                                <button type="button" class="btn btn-primary text-center btn-block" onclick="window.location.href='payment.html'">$100</button>
+                                <button type="button" class="btn btn-primary text-center btn-block SelectAmountForm">$100</button>
                             </div>
 
                             <div class="col-sm-4 mb-3">
-                                <button type="button" class="btn btn-primary text-center btn-block" onclick="window.location.href='payment.html'">$250</button>
+                                <button type="button" class="btn btn-primary text-center btn-block SelectAmountForm">$250</button>
                             </div>
 
                             <div class="col-sm-4 mb-3">
-                                <button type="button" class="btn btn-primary text-center btn-block" onclick="window.location.href='payment.html'">$500</button>
+                                <button type="button" class="btn btn-primary text-center btn-block SelectAmountForm">$500</button>
                             </div>
                         </div>
 
@@ -166,7 +185,7 @@
 
                         <div class="row">
                             <div class="col-sm-12">
-                                <button class="btn btn-block btn-info submit-btn">Donate</button>
+                                <button class="btn btn-block btn-info submit-btn" id="SubmitAmountForm">Donate</button>
                             </div>
                         </div>
                     </form>

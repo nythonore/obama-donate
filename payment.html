@@ -17,6 +17,26 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow border-bottom sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><b>OBAMA</b> DONATE</a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-primary my-2 my-sm-0 mr-2" type="button" onclick="window.location.href='index.html'">GO BACK</button>
+                    <button class="btn btn-danger my-2 my-sm-0" type="button">DONATE NOW</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <section class="section-7"></section>
 
     <section class="section-8">
@@ -37,23 +57,17 @@
                                     
                                     <div class="buttons">
                                         <div class="row">
-                                            <div class="col-lg-4">
-                                                <a href="#">
-                                                    <img src="img/pay-pal.png" alt="pay pal" class="img-fluid">
-                                                </a>
+                                            <div class="col-lg-6" id="paypal-button-container">
+                                                <!-- <img src="img/pay-pal.png" alt="pay pal" class="img-fluid"> -->
+                                            </div>
+                                    
+                                            <!-- <div class="col-lg-4">
+                                                <img src="img/visa.png" alt="pay pal" class="img-fluid">
                                             </div>
                                     
                                             <div class="col-lg-4">
-                                                <a href="#">
-                                                    <img src="img/visa.png" alt="pay pal" class="img-fluid">
-                                                </a>
-                                            </div>
-                                    
-                                            <div class="col-lg-4">
-                                                <a href="#">
-                                                    <img src="img/momo.png" alt="pay pal" class="img-fluid">
-                                                </a>
-                                            </div>
+                                                <img src="img/momo.png" alt="pay pal" class="img-fluid">
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
@@ -487,5 +501,6 @@
     crossorigin="anonymous"></script>
 
 <script src="https://checkout.flutterwave.com/v3.js"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=ARAZD5jp4oMn0rTTRrHQ0X8GtRNO1mgqbokLqvZF9YAu0nkbKSK9QjaOB1Q0Mi7-ThmHR1llO5WAcfEY"></script>
 
 <script src="js/main.min.js"></script>
